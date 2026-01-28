@@ -1,12 +1,14 @@
 <html>
     <body>
         <form>
+            <fieldset>
+            <legend>Personal information</legend>
             <label for="firstname">firstname :</label><br>
-            <input type="text" id ="firstname" name="firstname"><br>
+            <input type="text" id ="firstname" name="firstname" value="John" disabled><br>
             <label for="lasttname">lastname :</label><br>
-            <input type="text" id ="lastname" name="lastname"><br>
+            <input type="text" id ="lastname" name="lastname" size="32" required><br>
             <label for="password">password :</label><br>
-            <input type="password " id ="password" name="password"><br>
+            <input type="password " id ="password" name="password" placeholder="password"><br>
             <label for="email">email :</label><br>
             <input type="text" id ="email" name="email"><br>
             <input type="submit" id ="submit" name="submit"><br>
@@ -16,15 +18,22 @@
             <label for="female">Female : </label><br>
             <input type="radio" id ="Female" name="gender"value="Female"><br>
             <label>Hobbies :</label><br>
-            <label for="football">football</label><br>
-            <input type="checkbox" id ="sport" name="football"value="Female"><br>
             
-            
-
-            
-
-
-        
+            <input type="checkbox" id ="Football" name="Football"value="Football"><br>
+            <label for="Football">Football</label><br>
+            <input type="checkbox" id ="Table tannis" name="Table tennis"value="Table tennis"><br>
+            <label for="Table tennis">Table tennis</label><br>
+            <input type="checkbox" id ="Basketball" name="Basketball"value="Basketball"><br>
+            <label for="Basketball">Basketball</label><br>
+            <input type="checkbox" id ="basketball" name="basketball"value="basketball"><br>
+            <label for="pet">Choose pet :</label>
+            <select id="pet" name ="pet">
+                <option value="Dog">Dog</option>
+                <option value="Cat">Cat</option>
+                <option value="Parrot">Parrot</option>
+            </select>
+            <textarea name="message" rows="10" cols="20" maxlength="50"></textarea>
+            </fieldset>
         </form>
 
 
