@@ -1,0 +1,36 @@
+h1{
+    color: green;
+    letter-spacing: 15px;
+    word-spacing: 20px;
+    text-align: center;
+}
+h2{
+    text-decoration: overline;
+    writing-mode: vertical-lr;
+
+}
+h3{
+    text-decoration: line-through;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h4{
+    text-decoration: underline;
+}
+@font-face {
+    font-family:"SparklingValentine";
+    src: url(Sparkling_Valentine.ttf);
+}
+h4{
+    text-decoration: underline;
+    font-family:"SparklingValentine";
+    color:blue !important;
+}
+#normalText{
+    font-style: normal;
+}
+#italictText{
+    font-style: italic;
+}
+#obliqueText{
+    font-style: oblique;
+}
