@@ -1,5 +1,4 @@
 #translate{
-    
     height: 200px;
     width: 200px;
     border-radius: 10px;
@@ -8,6 +7,34 @@
     
 
 }
+#scale{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 150px;
+    padding: 10px;
+    background-color: rgb(100, 100, 122);
+    transform: scale(2, 2);
+}
+#rotatex{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 150px;
+    padding: 10px;
+    background-color: rgb(145, 145, 240);
+    transform: rotateX(45deg);
+}
+#skewX{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 150px;
+    padding: 10px;
+    background-color: rgb(84, 84, 243);
+    transform: skewX(45deg);
+}
+
     
 
 
