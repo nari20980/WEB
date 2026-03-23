@@ -34,3 +34,15 @@
     background-color: white;
     font-size: 35px;
 }
+.contanier3{
+    display: flex;
+    background-color: darkblue;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contanier3 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    width: 40%;
+}
