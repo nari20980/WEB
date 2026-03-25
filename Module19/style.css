@@ -1,7 +1,9 @@
+
 .contanier{
     display: flex;
     background-color: darkblue;
 }
+
 .contanier div{
     margin: 10px;
     padding: 20px;
@@ -46,3 +48,28 @@
     padding: 20px;
     width: 40%;
 }
+.contanier4{
+    display: flex;
+    background-color: darkblue;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contanier4 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;  
+}
+
+.contanier5{
+    display: flex;
+    background-color: darkblue;
+    flex-direction: row;
+    height: 200px;
+    align-items: center;
+}
+.contanier5 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;  
+} 
+
