@@ -1,0 +1,59 @@
+body{
+    background-color: lightblue;
+}
+h1{
+    text-align: center;
+    margin-top: 300px;
+}
+p{
+    text-align: center;
+}
+.logo{
+    margin-left: 350px;
+    margin-top: 60px;
+    
+}
+.logo1{
+    margin-left: 650px;
+    margin-top: -150px;
+    
+}
+.logo2{
+    margin-left: 880px;
+    margin-top: -130px;
+
+}
+.logo3{
+    
+    margin-left: 1200px;
+    margin-top: -130px;
+}
+.p{
+    margin-left: -750px;
+    margin-top: 40px;
+}
+.p1{
+    margin-left: -200px;
+    margin-top: -100px;
+}
+.p2{
+    margin-left: 300px;
+    margin-top: -103px;
+}
+.p3{
+    margin-left: 900px;
+    margin-top: -103px;
+}
+.h1{
+    margin-top: -1120px;
+    margin-left: 600px;
+    margin-right: 900px;
+}
+
+.titul{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: flex-start;
+
+}
