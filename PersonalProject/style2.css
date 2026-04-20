@@ -1,0 +1,11 @@
+body{
+    background-color: blue;
+
+}
+.navbar a{
+    color: rgb(68, 240, 25);
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+
+}

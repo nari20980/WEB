@@ -1,0 +1,26 @@
+body{
+    background-color: #325fc9;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    gap: 500px;
+    background-color: #325fc9;
+    align-items: flex-start;
+}
+.navbar2{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    gap: 600px;
+    background-color: #325fc9;
+    align-items: flex-start;
+}
