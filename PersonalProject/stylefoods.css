@@ -9,3 +9,11 @@ body{
     justify-content: flex-end;
 
 }
+.navbar1{
+    color: rgb(68, 240, 25);
+    font-size: 30px;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+
+}
