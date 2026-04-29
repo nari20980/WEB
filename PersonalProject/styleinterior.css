@@ -1,0 +1,47 @@
+.navbar a{
+    color: rgb(68, 240, 25);
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+
+.logo {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+}
+
+
+.foto {
+    width: 80%;
+    max-width: 900px;
+    border-radius: 10px;
+}
+
+
+.paragraphs {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+    line-height: 1.6;
+}
+
+
+.paragraphs p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+
+.paragraphs p:first-child {
+    font-weight: bold;
+}

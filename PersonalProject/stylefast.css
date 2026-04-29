@@ -1,67 +1,66 @@
-body{
-    background-color: lightblue;
-}
-.navbar a{
-    color: rgb(68, 240, 25);
-    font-size: 30px;
-    display: flex;
-    justify-content: flex-end;
-
-}
-.logo{
-    margin-left: 350px;
-    margin-top: 60px;
-    height: 100px;
-    width: 50px;
-    
-}
-.logo1{
-    margin-left: 650px;
-    margin-top: -150px;
-    height: 100px;
-    width: 50px;
-    
-}
-.logo2{
-    margin-left: 880px;
-    margin-top: -130px;
-    height: 100px;
-    width: 50px;
-
-}
-.logo3{
-    
-    margin-left: 1200px;
-    margin-top: -130px;
-    height: 100px;
-    width: 50px;
-}
-.p{
-    margin-left: -750px;
-    margin-top: 40px;
-
-}
-.p1{
-    margin-left: -200px;
-    margin-top: -100px;
-}
-.p2{
-    margin-left: 300px;
-    margin-top: -103px;
-}
-.p3{
-    margin-left: 900px;
-    margin-top: -103px;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
 }
 
-.titul{
-    display: flex;
-    flex-direction: row;
-    justify-content:flex-start;
-    align-items: flex-start;
+
+.navbar {
+    background-color: #111;
+    padding: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+.page-header {
     text-align: center;
-    margin-top: -455px;
-    gap: 80px;
-    margin-left: 350px;
+    padding: 40px 20px;
+    background-color: #ff6600;
+    color: white;
+}
 
+.page-header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+
+.Appetizers {
+    padding: 30px;
+    text-align: center;
+}
+
+.Appetizers h2 {
+    margin-bottom: 20px;
+}
+
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+
+.menu-item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.menu-item h3 {
+    margin-top: 0;
+}
+
+.menu-item span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ff6600;
 }
