@@ -1,59 +1,108 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
 body{
-    background-color: lightblue;
+min-height:100vh;
+background:linear-gradient(135deg,#ffecd2,#fcb69f,#a1ffce,#faffd1);
+padding:30px;
 }
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:40px;
+padding:20px 30px;
+background:rgba(255,255,255,0.4);
+backdrop-filter:blur(10px);
+border-radius:20px;
+box-shadow:0 8px 20px rgba(0,0,0,0.1);
+}
+
+.navbar h1{
+font-size:32px;
+color:#2d3436;
+}
+
+
 .navbar a{
-    color: rgb(68, 240, 25);
-    font-size: 30px;
-    display: flex;
-    justify-content: flex-end;
-
+text-decoration:none;
+display:inline-block;
+padding:14px 28px;
+font-size:18px;
+font-weight:bold;
+color:white;
+background:linear-gradient(135deg,#00c6ff,#0072ff);
+border-radius:14px;
+box-shadow:0 8px 18px rgba(0,0,0,0.18);
+transition:all 0.3s ease;
+cursor:pointer;
 }
 
-.logo{
-    margin-left: 350px;
-    margin-top: 60px;
-    
-}
-.logo1{
-    margin-left: 650px;
-    margin-top: -150px;
-    
-}
-.logo2{
-    margin-left: 880px;
-    margin-top: -130px;
-
-}
-.logo3{
-    
-    margin-left: 1200px;
-    margin-top: -130px;
-}
-.p{
-    margin-left: -750px;
-    margin-top: 40px;
-}
-.p1{
-    margin-left: -200px;
-    margin-top: -100px;
-}
-.p2{
-    margin-left: 300px;
-    margin-top: -103px;
-}
-.p3{
-    margin-left: 900px;
-    margin-top: -103px;
+.navbar a:hover{
+transform:translateY(-3px);
+box-shadow:0 12px 22px rgba(0,0,0,0.22);
+background:linear-gradient(135deg,#0072ff,#00c6ff);
 }
 
-.titul{
-    display: flex;
-    flex-direction: row;
-    justify-content:flex-start;
-    align-items: flex-start;
-    text-align: center;
-    margin-top: -455px;
-    gap: 80px;
-    margin-left: 350px;
+.navbar a:active{
+transform:scale(0.96);
+box-shadow:0 4px 10px rgba(0,0,0,0.18);
+}
 
+
+.container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+}
+
+
+.card{
+background:white;
+border-radius:25px;
+overflow:hidden;
+box-shadow:0 10px 25px rgba(0,0,0,0.12);
+transition:0.4s;
+text-align:center;
+}
+
+.card:hover{
+transform:translateY(-12px) scale(1.03);
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.card h2{
+padding:18px 10px 10px;
+font-size:24px;
+color:#2d3436;
+}
+
+.card p{
+padding:0 18px 25px;
+font-size:16px;
+color:#636e72;
+line-height:1.5;
+}
+
+
+@media(max-width:768px){
+.navbar{
+flex-direction:column;
+gap:15px;
+text-align:center;
+}
+
+.navbar h1{
+font-size:26px;
+}
 }
