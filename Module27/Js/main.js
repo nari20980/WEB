@@ -1,7 +1,6 @@
 function showsms(){
     alert("Ky eshte vetem nje message")
 
-
 }
 showsms();
 
@@ -45,4 +44,27 @@ console.log(car.getkilometers);
 alert(car.name);
 alert(car['color']);
 
+
+
+
 car.starEngine();
+
+function Computer(name,cpu,ram,rom){
+    this.name=name;
+    this.cpu=cpu;
+    this.ram=ram;
+    this.rom=rom;
+
+}
+
+var com1= new Computer("macbook","8-core","8gb","8gb")
+var com2= new Computer("macbook2","6-core","8gb","8gb")
+
+function Car(name,color,year,modelin){
+    this.name=name;
+    this.color=color;
+    this.year=year;
+    this.modelin=modelin;
+}
+
+var car1= new Car("Audi 2","Black",2026,"q3")
