@@ -30,8 +30,11 @@ button.onclick=function(){
     txt1.style.backgroundColor="lightgrey";
     txt1.style.textAlign="center";
     txt1.style.padding="20px";
+}
+var button4=document.getElementById('btn4');
 
 
+button4.onclick=function(){
+    txt1.setAttribute("class","test")
     
 }
-
