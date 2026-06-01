@@ -26,6 +26,9 @@ function showcurrentTime(){
 
 
 }
+var oneSecond=1000;
+setInterval(showcurrentTime,oneSecond)
+
 function changeImage(){
     var time=new Date().getHours();
     console.log(time);
@@ -36,15 +39,41 @@ function changeImage(){
     var imageHTML   =document.getElementById("timeImage")
 
     if(time==wakeuptime){
-        image="img/ds_clock.png";
+        image="img/morning.png";
         console.log("morning");
     }else if(time==dstime){
         image="img/class.gif";
 
-    }
+    }else if(time==sleeptime){
+        image="img/night.gif";  
+}
+
+imageHTML.src=image;
+console.log(imageHTML.src);
 
 
 
 
 }
+
+function updateclock(){
+    var wakeUpTime=document.getElementById('wakeUpTimeSelecor');
+    wakeUpTime==wakeUpTime.value;
+
+    var dsTime=document.getElementById('dsTimeSelecor');
+    dsTime==dsTime.value;
+
+
+    var sleepTime=document.getElementById('sleepTimeSelecor');
+    sleepTime==sleepTime.value;
+
+}
+var savebutton=document.getElementById('saveButton');
+
+savebutton.addEventListener("click")
+
+
+
+
+
 
